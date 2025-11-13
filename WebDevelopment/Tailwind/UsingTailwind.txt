@@ -1,0 +1,33 @@
+https://tailwindcss.com/docs/installation/using-vite
+
+Tailwind is used to quickly apply CSS styles in html without having to make CSS style blocks.
+
+To begin using Tailwind, start by using Vite.
+
+Go through the prompt for this in terminal at the root of your project:
+
+npm create vite@latest
+
+
+Once completed, run this:
+
+npm install tailwindcss @tailwindcss/vite
+
+
+In the vite.config.js/ts, add this import to the top:
+
+import tailwindcss from '@tailwindcss/vite'
+
+
+Inside of the defineConfig function, add tailwindcss() to the plugins to look like this:
+
+export default defineConfig({
+  plugins: [
+    tailwindcss(), //this is being added.
+  ],
+})
+
+
+Finally, add this import to your CSS sheets:
+
+@import "tailwindcss";

@@ -1,0 +1,18 @@
+.env files are environment variables. These variables are supposed to be hidden and not shared. 
+
+There are a few different ways to access these variables.
+
+// JavaScript //
+
+Run: npm install dotenv
+
+Wherever you're going to read a env variable, declare this first:
+
+const dotenv = require('dotenv');
+dotenv.config();
+
+Then, use:
+
+process.env.ENV_NAME
+
+This will read the env variable with that given name.

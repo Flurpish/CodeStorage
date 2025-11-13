@@ -1,0 +1,8 @@
+/* BASIC INFORMATION */
+
+
+Web development can be broken into HTML, JS, and CSS, however there are more streamlined ways to do this. 
+By following the other folder structures, the storage should be simplified.
+I will most likely mainly use React to develop websites.
+
+Other information will be saved when needed. They will show up in txt files, like this one.

@@ -1,0 +1,20 @@
+https://react.dev/learn/build-a-react-app-from-scratch
+
+To begin using React, start by using Vite.
+
+To begin this, run this in the terminal at the folder "React":
+
+npm create vite@latest
+
+After this, go through the prompts and select "React" when asked. 
+Most of these will use JavaScript. 
+
+
+If you're taking this from the repository, run this:
+
+npm i
+
+This will install all dependancies. 
+
+
+This react project will be using tailwindcss. Please direct to the Tailwind folder to learn how to install it.

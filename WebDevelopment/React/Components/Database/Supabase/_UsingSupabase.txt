@@ -1,0 +1,11 @@
+https://supabase.com/
+
+Supabase is a really good free online database. I've been using it a lot for basically everything when I need a database. 
+
+To use Supabase, first make an account.
+
+Next, run this in the terminal to install it. Normally, run this in the directory that you would be creating the website:
+
+npm install @supabase/supabase-js
+
+The rest will be explained in the supabase.js file.
