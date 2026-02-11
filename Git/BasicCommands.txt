@@ -1,0 +1,5 @@
+Basic git commands are very important to know.
+
+Use this linked cheat sheet for basic commands:
+
+https://education.github.com/git-cheat-sheet-education.pdf
