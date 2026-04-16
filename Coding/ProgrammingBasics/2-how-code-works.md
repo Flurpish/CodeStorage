@@ -18,7 +18,7 @@ but is super hard to code in. This is like the type of torture you'd apply to wa
 Binary is grouped into groups of 8 digits, known as **bytes**. A **byte** is considered the smallest form of memory. It consists of 8 **bits**, which 
 is basically one of those digits. Below is an example of a **byte**, with 8 **bits**, or 8 **transistors**:
 
->> 11000110
+> 11000110
 
 ## Programming Languages
 
