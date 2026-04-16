@@ -26,4 +26,10 @@ While the number of languages may seem intimidating, many of them share similar 
 
 For example, **C++** gives programmers much more low-level control over memory and hardware, which makes it useful for systems programming (like Windows and Linux). **Python**, on the other hand, is easier to read and write, which makes it very popular for beginners.
 
+## Examples of Programs
+
+Your entire computer, phone, TV, weird dancing/singing doll you had when you were a kid (usually), and even those smart LED strips have programs on them. Web browsers, video games (Minecraft!), Discord, a tiny file of code that says "Hello World!", all use programs to run.
+
+This might seem broad, and well, it really is, but as you continue to program, you'll start to understand how a lot of modern day products use programs to execute their tasks.
+
 You do not need to master every language. Once you understand the core ideas of programming, learning a new language becomes much easier.
