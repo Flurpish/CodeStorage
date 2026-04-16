@@ -1,6 +1,6 @@
-#What is programming?
+# What is programming?
 
-##Introduction
+## Introduction
 
 Welcome to the wide (and sometimes miserable) word of programming! By going through this repository, you
 should have a decent time piecing everything together. I will attempt to place these topics in a way where
