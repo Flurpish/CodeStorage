@@ -19,7 +19,9 @@ There are also online ones to use if you just search "online python ide" (or any
 We'll be using VSCode because I like it! You can use whatever you'd like. Here is the link to download as of 5/5/2026:
 > https://code.visualstudio.com/docs/setup/setup-overview
 
-I will NOT being walking through how to set this up. The link provided should guide you through on how to do this on your own.
+I will NOT being walking through how to set this up. The reason for this is because I think it's important to start off with learning from documentation. When you get stuck somewhere, documentation
+is normally where you'll find your answers! So it's good to understand this now rather than later. 
+The link provided should guide you through on how to do this on your own.
 
 ## Installing Python
 
@@ -27,3 +29,9 @@ We'll be using Python for the basics of this. If at any other point I use someth
 > https://code.visualstudio.com/docs/python/python-quick-start
 
 For this one, you only really need to follow the first "Quick Start" part, with possibily going into "Tutorial" for downloading the Python interpreter.
+
+## Final Notes
+
+Before we start programming, it's important to understand that it will be confusing at first. This is where most people get discouraged.
+It's going to be a learning process, and I'll make sure that we actually put to use what we learn. My classes taught me the fundamentals, not how to actually apply them, so I intend to fix that issue 
+with these courses!
