@@ -53,12 +53,12 @@ print(type('a'))
 
 print(5)
 print(type(5))
-#Any counting number is an int. If there are decimals, then it's not an integer. 
+#Integers are whole numbers without decimal points.
 
 x = 10
 print(x)
 print(type(x))
-#x is an int. Notice how x was a string before, but now it's an int. Python allows variables to change types easily. Most other langauges don't though, requiring something like:
+#x is an int. Notice how x was a string before, but now it's an int. Python allows variables to change types easily. Most other languages don't though, requiring something like:
 
 x = int(10)
 # or
@@ -75,3 +75,47 @@ print(type(y))
 
 
 # ---- FLOATS ----
+
+print(1.2)
+print(type(1.2))
+
+#Floats are decimal point numbers. Basically, that's their whole thing.
+
+x = -13.454
+print(x)
+print(type(x))
+
+#Why is it called a float? Well, that's because the term for them is "floating point value", so they just turned it into floats for short. 
+
+# ---- BOOLEAN ----
+
+print(True)
+print(type(True))
+
+#Bools are either True or False. 
+
+print(False)
+print(type(False))
+
+x = True
+print(x)
+print(type(x))
+
+# -----------------
+# PRACTICE
+# -----------------
+
+#As practice, make a variable called name. Assign your name to it as a string.
+#Next, print out your name using the print function and check what data type your name was!
+
+name = "Dominic"
+print(name)
+print(type(name))
+
+#create another variable and name it whatever you'd like, I'll just do "temp" for temporary.
+temp = 0 #set it to anything, whether it's a float, int, bool, or string.
+
+#do this below:
+temp = name
+
+#What will be the value of temp?
