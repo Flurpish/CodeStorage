@@ -1,0 +1,52 @@
+//Sparse Checkout allows for you to work on a smaller portion of a github repository without having to download
+//the full thing. It can be done like this:
+
+git clone --filter=blob:none --sparse <repository-url> 
+
+--filter=blob:none prevents downloading file contents initially, which saves some time. 
+--sparse prepares the repository for selecting a smaller section.
+
+
+//Once you do this, cd into the directory that was just made for you.
+
+cd <repository-directory>
+
+
+git sparse-checkout set <path/to/your/folder>
+
+//For example, LeetCode would simply be LeetCode, while something more specific would be LeetCode/AddTwoNumbers. Make
+sure it's relative to the base directory.
+
+
+git checkout <branch-name>
+
+//Most of the time, this should automatically be set to main. If you made another branch, then repace <branch-name> 
+//with it.
+
+
+//Now, in order to push these changes you make, you'll have to add them.
+
+git sparse-checkout add <added-content>
+
+//For example, LeetCode/RemoveElement is a folder that I added.
+
+
+git add -A
+
+//This stages everything you've added. If you only want to add certain things, then replace -A with the folder you
+want to add.
+
+
+git status 
+
+//This is used to verify what you're adding.
+
+
+git commit -m ["optional message"]
+
+
+git push
+
+
+
+
