@@ -1,0 +1,1 @@
+This folder is meant to showcase the game "Tetris", playable in the terminal.
