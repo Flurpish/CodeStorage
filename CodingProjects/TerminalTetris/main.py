@@ -3,14 +3,11 @@ import curses
 
 from Board import displayBoard, pieceDown, pieceLeft, pieceRight, pieceRotate
 
-MOVEMENT_DELAY = 0.3 # In seconds, the time it takes to move the piece
-
 def main(stdscr):
     curses.noecho() # Won't show user input
     curses.cbreak()
     stdscr.keypad(True)
     stdscr.nodelay(True) # No while waiting for user input
-
 
     while(True):
         input = stdscr.getch()
@@ -35,9 +32,8 @@ def main(stdscr):
             input = stdscr.getch() # This gets out of the while loop
 
         displayBoard(stdscr)
-        time.sleep(MOVEMENT_DELAY)
 
-        #Move piece downward every movement_delay
+        #Move piece downward every movementDelay
         pieceDown()
 
         #Clear the window so we don't spam prints

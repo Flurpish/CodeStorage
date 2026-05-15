@@ -9,6 +9,8 @@ BOARD_HEIGHT = 20
 board = []
 stdscr = None
 score = 0
+totalLinesCleared = 0
+movementDelay = 0.3
 
 currentPiece = {
     "type": random.choice(list(PIECES.keys())),
@@ -29,6 +31,7 @@ for i in range(BOARD_WIDTH):
 def displayBoard(curses):
     '''Render the board and pieces.'''
     global stdscr
+    global movementDelay
     stdscr = curses
 
     blockLocation = [] # Holds location of the current piece
@@ -55,6 +58,8 @@ def displayBoard(curses):
 
     displayScore()
     stdscr.refresh()
+
+    time.sleep(movementDelay)
         
 def displayScore():
     global score
@@ -149,12 +154,15 @@ def lineCheck():
     newBoard = []
     clearedLines = 0
     global score
+    global totalLinesCleared
+    global movementDelay
 
     for row in board:
         if 0 in row:
             newBoard.append(row)
         else:
             clearedLines += 1
+            totalLinesCleared += 1
 
         
     for _ in range(clearedLines):
@@ -172,4 +180,7 @@ def lineCheck():
         case _: # 4+
             score += 800
 
+    if 0 < totalLinesCleared < 150 and totalLinesCleared % 10 == 0 and clearedLines != 0 and movementDelay - 0.05 > 0:
+        movementDelay -= 0.05 # increases the speed every ten lines cleared. Change the 0.05 for a slower increase.
+        
     board[:] = newBoard
